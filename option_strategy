@@ -1,0 +1,39 @@
+Notes:
+
+1. Volatile Hours like morning and closing preferred.
+2. Always have a POV on whether today Market will go up or down and favour the Call or Put side orders accordingly.
+
+Strategy 1:
+Settings:
+1. 2 Minute Candle - BankNifty
+2. Supertrend (7,2.8)
+3. MACD (10,26,8)
+
+
+
+Rule:
+
+1. If Market gap up/down by more than 300 Points (~1%) then wait for next Supertrend.
+2. If Market gap up/down by less than 300 Points (~1%) and if Supertrend of 1st candle not consistent with candle color then ignore and wait for next Supertrend.
+3. If 1st Candle more than 300 points then wait for the next Supertrend, if less than 300 and in the expected direction of the Day then ride the wave.
+
+4. If Supertrend is Green (just the start point):
+	If HDFC Bank Supertrend is also Green:
+		If MACD > Signal :
+			Buy nearest ITM Call and wait for Exit:
+				Exit - earlier of the two (MACD and Signal difference goes below -13, Supertrend Red)
+
+
+5. If Supertrend is Red (just the start point):
+	If HDFC Bank Supertrend is also Red:
+		If MACD < Signal :
+			Buy nearest ITM Put and wait for Exit:
+				Exit - earlier of the two (MACD and Signal difference goes above +13, Supertrend Green)
+
+
+For 1 minutes, use 5 instead of 10
+For 3 minutes, use 15 instead of 10
+
+
+
+	
