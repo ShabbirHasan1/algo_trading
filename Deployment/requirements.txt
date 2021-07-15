@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+requests
+KiteConnect
+selenium
+streamtologger>=2017.1
+tksheet>=4.9.96
+win10toast>=0.9

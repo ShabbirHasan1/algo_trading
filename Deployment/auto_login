@@ -1,0 +1,2 @@
+cd /home/ec2-user/Deployment
+python3 login.py
